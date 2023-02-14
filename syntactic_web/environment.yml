@@ -49,3 +49,4 @@ dependencies:
   - zlib=1.2.13
   - pip:
       - cryptography==39.0.0
+prefix: /opt/conda
