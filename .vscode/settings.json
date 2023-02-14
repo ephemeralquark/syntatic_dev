@@ -6,9 +6,9 @@
             "port": 5432,
             "askForPassword": true,
             "driver": "PostgreSQL",
-            "name": "syntactic",
-            "database": "syntactic",
-            "username": "syntactic"
+            "name": "pgdb",
+            "database": "pgdb",
+            "username": "pguser"
         }
     ]
 }
