@@ -18,3 +18,6 @@ RUN conda env update --file environment.yml
 # Set up the shell so it's usable
 RUN apt-get update && apt-get -y install --no-install-recommends zsh
 RUN sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+# Set up less since git commands use them
+RUN apt-get update && apt-get -y install --no-install-recommends less
