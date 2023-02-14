@@ -20,4 +20,4 @@ RUN apt-get update && apt-get -y install --no-install-recommends zsh
 RUN sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # Set up less since git commands use them
-RUN apt-get update && apt-get -y install --no-install-recommends less
+RUN apt-get update && apt-get -y install --no-install-recommends vim less
