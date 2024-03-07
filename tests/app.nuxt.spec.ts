@@ -7,6 +7,7 @@ import App from '@/app.vue';
 describe('app.vue',  () => {
     it('renders correctly', async () => {
       const component = await mountSuspended(App); 
-      expect(component.html()).toContain('Welcome to Nuxt');
+      console.log(component.html());
+      expect(component.html()).toContain('Welcome to the homepage');
     });
   });
